@@ -6,3 +6,17 @@
 #===========================================================================
 
 #Creamos carpetas-----------------------------
+
+dir.create("datos")
+dir.create("datos/crudos")
+dir.create("datos/procesados")
+dir.create("outputs")
+dir.create("docs")
+
+#Enlace con Git y GitHub
+install.packages("usethis")
+usethis::use_git()
+usethis::use_git_config(
+  user.name = "Kyale33", 
+  user.email = "ronchi.kyara@pucp.edu.pe"
+)
