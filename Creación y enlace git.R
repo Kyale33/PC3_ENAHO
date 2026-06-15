@@ -15,8 +15,10 @@ dir.create("docs")
 
 #Enlace con Git y GitHub
 install.packages("usethis")
+install.packages(c("stringi", "rlang", "glue", "gert", "usethis"), dependencies = TRUE)
 usethis::use_git()
 usethis::use_git_config(
   user.name = "Kyale33", 
   user.email = "ronchi.kyara@pucp.edu.pe"
 )
+usethis::use_github()
