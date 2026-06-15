@@ -11,4 +11,6 @@ library(tidyverse)
 library(janitor)
 library(readr)
 
-renv::snapshot()
+renv::snapshot(force = TRUE)
+file.exists("renv.lock")
+system("git add renv.lock -f")
