@@ -10,3 +10,5 @@ library(rio)
 library(tidyverse)
 library(janitor)
 library(readr)
+
+renv::snapshot()
