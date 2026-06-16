@@ -8,4 +8,4 @@
 datos/crudos/
 *.csv
 *.sav
-
+*.parquet
