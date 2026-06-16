@@ -42,3 +42,4 @@ gc()
 #4. Exportamos base de datos creada------------------------------------------------------
 library(arrow)
 renv::snapshot()
+write_parquet(enaho2025, "datos/procesados/enaho_2025_120626.parquet")
